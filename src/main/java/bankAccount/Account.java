@@ -3,7 +3,7 @@ package bankAccount;
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class mainClass {
+public class Account {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         HashMap<Integer, CorporateCustomerAccount> corporateCustomerAccountHashMap = new HashMap<>();
